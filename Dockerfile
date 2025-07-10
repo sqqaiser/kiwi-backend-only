@@ -6,6 +6,7 @@ COPY . /app
 
 RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
+RUN pip install accelerate
 
 EXPOSE 8000
 
